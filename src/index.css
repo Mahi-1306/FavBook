@@ -1,0 +1,83 @@
+.header{
+  background-color: antiquewhite;
+ 
+  display:flex ;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+  
+}
+.book{
+  margin-left: 10px;
+}
+.add{
+ width: 7%;
+ height: 7%;
+ padding-bottom: 5px;
+ margin-left: 50px;
+ margin-top: 50px;
+ 
+}
+.table{
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 20px;
+ margin-left: 40px;
+ 
+}
+.table th,
+.table td{
+   border: 2px solid black;
+  height: 50px;
+}
+.dots-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+  line-height: 1;
+}
+.edit{
+  width: 40%;
+}
+.su{
+  margin-left: 75px;
+}
+.popup{
+ position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.6); /* optional blur feel */
+  backdrop-filter: blur(4px); /* blur effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+ ;
+  border: 2px solid;
+}
+.pop-item{
+   background:burlywood;
+ padding:30px;
+ margin: 20px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+ .close-btn {
+      position:fixed;
+      top:31%;
+      right: 40%;
+      font-size: 22px;
+      font-weight: bold;
+      color: #333;
+      cursor: pointer;
+      border: none;
+      background: transparent;
+    }
+
+    .close-btn:hover {
+      color: red;
+    }
